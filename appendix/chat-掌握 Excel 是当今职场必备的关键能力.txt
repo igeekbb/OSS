@@ -1,0 +1,396 @@
+### USER
+你是一位精通简体中文的专业翻译，尤其擅长将专业学术论文翻译成浅显易懂的科普文章。请你帮我将g下列英文翻译成中文，风格与中文科普读物相似。
+
+Becoming proficient in Excel is a crucial ability in today's professional landscape. Even the experts encounter intricate challenges that stall their progress from time to time. What if we told you there is a solution to all your Excel hitches through ChatGPT?
+
+We are here to introduce you to 6 life-changing ChatGPT prompts designed to elevate your efficiency exponentially. Additionally, we will unveil how to transform ChatGPT into a handy aide for your Excel undertakings.
+
+
+
+规则：
+- 翻译时要准确传达原文的事实和背景。
+- 即使上意译也要保留原始段落格式，以及保留术语，例如 FLAC，JPEG 等。保留公司缩写，例如 Microsoft, Amazon, OpenAI 等。
+- 人名不翻译
+- 同时要保留引用的论文，例如 [20] 这样的引用。
+- 对于 Figure 和 Table，翻译的同时保留原有格式，例如：“Figure 1: ”翻译为“图 1: ”，“Table 1: ”翻译为：“表 1: ”。
+- 全角括号换成半角括号，并在左括号前面加半角空格，右括号后面加半角空格。
+- 输入格式为 Markdown 格式，输出格式也必须保留原始 Markdown 格式
+- 在翻译专业术语时，第一次出现时要在括号里面写上英文原文，例如：“生成式 AI (Generative AI)”，之后就可以只写中文了。
+- 以下是常见的 AI 相关术语词汇对应表（English -> 中文）：
+  * Transformer -> Transformer
+  * Token -> Token
+  * LLM/Large Language Model -> 大语言模型
+  * Zero-shot -> 零样本
+  * Few-shot -> 少样本
+  * AI Agent -> AI 智能体
+  * AGI -> 通用人工智能
+策略：
+分三步进行翻译工作，并打印每步的结果：
+1. 根据英文内容直译，保持原有格式，不要遗漏任何信息
+2. 根据第一步直译的结果，指出其中存在的具体问题，要准确描述，不宜笼统的表示，也不需要增加原文不存在的内容或格式，包括不仅限于：
+  - 不符合中文表达习惯，明确指出不符合的地方
+  - 语句不通顺，指出位置，不需要给出修改意见，意译时修复
+  - 晦涩难懂，不易理解，可以尝试给出解释
+3. 根据第一步直译的结果和第二步指出的问题，重新进行意译，保证内容的原意的基础上，使其更易于理解，更符合中文的表达习惯，同时保持原有的格式不变
+返回格式如下，"{xxx}"表示占位符：
+### 直译
+{直译结果}
+***
+### 问题
+{直译的具体问题列表}
+***
+### 意译
+```
+{意译结果}
+```
+现在请按照上面的要求从第一行开始翻译以下内容为简体中文：
+
+### ASSISTANT
+### 直译
+Becoming proficient in Excel is a crucial ability in today's professional landscape. Even the experts encounter intricate challenges that stall their progress from time to time. What if we told you there is a solution to all your Excel hitches through ChatGPT?
+```
+在当今的职业领域中，精通Excel是一项至关重要的能力。即使是专家，也会时不时地遇到复杂的挑战，阻碍他们的进步。如果我们告诉你，通过ChatGPT可以解决你所有的Excel问题，你会怎么想？
+```
+We are here to introduce you to 6 life-changing ChatGPT prompts designed to elevate your efficiency exponentially. Additionally, we will unveil how to transform ChatGPT into a handy aide for your Excel undertakings.
+```
+我们在这里向你介绍6个改变生活的ChatGPT提示，旨在成倍提高你的效率。此外，我们还将揭示如何将ChatGPT转变为你Excel任务的得力助手。
+***
+
+### 问题
+1. "Excel hitches"直译为"Excel问题"，但这样的表达在中文中不常见，更常见的表达是"Excel使用中遇到的问题"。
+2. "life-changing"直译为"改变生活的"，这个短语在中文中可能过于夸张，通常我们会使用"非常有用"或"极大提升"等表达。
+3. "prompts"直译为"提示"，在中文中更常见的表达是"技巧"或"方法"。
+4. "exponentially"直译为"成倍"，但在中文中表达增长时，更常用的词汇是"显著"或"大幅提升"。
+5. "unveil"直译为"揭示"，但在中文科普文章中，更常用的表达是"介绍"或"展示"。
+6. "handy aide"直译为"得力助手"，这个短语在中文中可能会显得有些生硬，可以使用"有效工具"或"实用助手"等表达。
+7. "undertakings"直译为"任务"，但在中文中更常见的表达是"工作"或"项目"。
+
+***
+### 意译
+```
+在当今职场，熟练掌握Excel是极其重要的技能。就算是资深专家，也会偶尔遇到一些复杂的难题，影响他们的工作效率。想象一下，如果有一个方法能帮你解决所有Excel的难题，那就是通过ChatGPT，你感觉如何？
+
+我们将向你展示6个非常实用的ChatGPT技巧，它们能够有效地显著提高你的工作效率。同时，我们还会向你介绍如何让ChatGPT成为你处理Excel工作的有效工具。
+```
+***
+
+### USER
+ChatGPT Prompts for Excel
+Using ChatGPT can greatly simplify your Excel tasks. Here are the six main ways it can help:
+
+Understanding Excel functions
+Learning to use Excel functions
+Creating Excel commands
+Writing Macros
+Handling complex tasks
+Being a universal Excel assistant
+In this guide, we will detail each point with examples.
+
+1. Understanding Excel Functions
+ChatGPT is great at explaining things clearly. Use it to get answers to your Excel queries with the following prompt template:
+
+Explain how Excel [name of Excel function] works. Go step-by-step.
+
+### ASSISTANT
+### 直译
+使用ChatGPT可以极大地简化你的Excel任务。以下是它可以帮助你的六个主要方式：
+
+理解Excel函数
+学习使用Excel函数
+创建Excel命令
+编写宏
+处理复杂任务
+成为一个通用的Excel助手
+在本指南中，我们将通过示例详细说明每个点。
+
+1. 理解Excel函数
+ChatGPT擅长清晰地解释事物。使用它来回答你的Excel查询，以下是一个提示模板：
+
+解释Excel [Excel函数名称]是如何工作的。逐步进行。
+***
+
+### 问题
+1. "简化"直译为"简化"，在中文中更常见的表达是"帮助完成"或"协助处理"。
+2. "理解Excel函数"和"学习使用Excel函数"中的"理解"和"学习"在中文中可能会造成混淆，因为这两个词在中文里含义相近，但在英文中"Understanding"和"Learning"有细微的区别。
+3. "创建Excel命令"中的"命令"在中文中不太常见，更常见的表达是"操作"或"功能"。
+4. "编写宏"中的"宏"是专业术语，需要保留，但在中文中可能需要额外解释以便读者理解。
+5. "处理复杂任务"中的"处理"直译为"处理"，在中文中更常见的表达是"解决"或"执行"。
+6. "成为一个通用的Excel助手"中的"通用的"直译为"通用的"，在中文中更常见的表达是"全能的"或"全面的"。
+7. "提示模板"中的"模板"在中文中可能会造成误解，更常见的表达是"示例"或"格式"。
+
+***
+### 意译
+```
+利用ChatGPT能够有效协助你完成Excel任务。下面介绍六种主要的使用方式：
+
+1. 理解Excel函数：ChatGPT能够清晰地解释Excel函数的工作原理，帮助你掌握其使用。
+2. 学习Excel操作：通过ChatGPT，你可以学习如何执行各种Excel操作。
+3. 掌握Excel功能：ChatGPT可以帮助你创建特定的Excel功能，以满足特定需求。
+4. 编写宏：利用ChatGPT，你可以学习如何编写Excel宏，以自动化重复性工作。
+5. 解决复杂问题：ChatGPT能够协助你解决Excel中的复杂问题。
+6. 成为全能的Excel助手：ChatGPT可以作为一个全面的助手，帮助你在Excel中完成各种工作。
+
+在本指南中，我们将通过具体示例详细介绍每一项技巧。
+
+1. 理解Excel函数
+当你需要了解某个Excel函数是如何工作的时候，可以使用以下格式向ChatGPT提问：
+
+请详细解释Excel中[函数名称]的工作原理，并且分步骤说明。
+```
+***
+
+### USER
+2. How to Use Excel Functions
+Next, we’ll talk about how to use different Excel functions. We'll make a simple guide for using any Excel function using this question template:
+
+How to use Excel [name of the function] to [what you want to do]? Give step-by-step guidance, but skip the basic steps.
+For instance, let's learn how to find the average of a group of cells.
+
+### ASSISTANT
+### 直译
+接下来，我们将讨论如何使用不同的Excel函数。我们将使用这个提问模板来制作一个简单的使用任何Excel函数的指南：
+
+如何使用Excel [函数名称]来[你想做什么]？提供分步指导，但跳过基本步骤。
+例如，让我们学习如何找到一组单元格的平均值。
+
+***
+### 问题
+1. "使用不同的Excel函数"中的"使用"在中文中可能会造成误解，更常见的表达是"应用"或"操作"。
+2. "提问模板"中的"模板"在中文中可能会造成误解，更常见的表达是"示例"或"格式"。
+3. "你想做什么"这个表达在中文中不够明确，可以具体化。
+4. "跳过基本步骤"在中文中的表达不够自然，可以改为"忽略基础操作"或"不包括入门步骤"。
+5. "例如"后面的内容直接翻译可能会缺乏上下文，需要稍作调整以符合中文的表达习惯。
+
+***
+### 意译
+```
+接下来，我们将介绍如何应用Excel的各种函数。通过以下提问示例，我们将创建一个简洁的指南，帮助你掌握如何使用任何Excel函数：
+
+如何利用Excel的[函数名称]来[实现特定目的]？请提供分步指导，但不必包括基础操作。
+例如，我们将通过一个实例来学习如何计算一组单元格的平均值。
+```
+***
+
+### USER
+3. Creating Excel Commands
+Sometimes, you just need to create an Excel command quickly. Luckily, ChatGPT can assist you with that. Use this prompt template to ask for any Excel command:
+
+Write an Excel command to [describe the task]. Respond with code only.
+Just specify the task you want to achieve in Excel, and ChatGPT will provide the necessary command code.
+
+### ASSISTANT
+### 直译
+有时，你可能需要快速创建一个Excel命令。幸运的是，ChatGPT可以协助你完成这项任务。使用以下提示模板来请求任何Excel命令：
+
+编写一个Excel命令来[描述任务]。只回复代码。
+只需指定你想在Excel中实现的任务，ChatGPT将会提供必要的命令代码。
+
+***
+
+### 问题
+1. "创建Excel命令"中的"创建"在中文中可能会造成误解，更常见的表达是"编写"或"构造"。
+2. "描述任务"这个表达在中文中不够明确，可以具体化。
+3. "只回复代码"在中文中的表达不够自然，可以改为"仅提供代码"或"直接给出代码"。
+
+***
+
+### 意译
+```
+在某些情况下，你可能需要迅速构造一个Excel命令。好消息是，ChatGPT能够在这方面给予你支持。当你需要时，可以使用以下的提问格式来获得所需的Excel命令：
+
+请编写一个用于完成[具体任务描述]的Excel命令。请直接给出代码。
+只需清晰地描述你希望在Excel中完成的任务，ChatGPT便会为你提供相应的命令代码。
+```
+***
+
+### USER
+4. Crafting Macros
+For those who appreciate automation in Excel, macros are a wonderful tool to explore. ChatGPT is here to assist you in learning how to create and utilize macros effectively.
+
+According to Microsoft, a macro is defined as an action or a series of actions that you can execute repeatedly. Essentially, creating a macro involves recording your mouse clicks and keystrokes, allowing you to automate repetitive tasks.
+
+Here, I present a prompt template to help you with crafting macros:
+
+Write a VBA Excel macro that [performs certain action]. Respond with the code only.
+I attempted to create a basic macro that takes the value from a cell and then opens a corresponding worksheet based on that value.
+
+### ASSISTANT
+### 直译
+对于那些欣赏Excel自动化功能的人来说，宏是一个非常有用的工具可以探索。ChatGPT在这里帮助你学习如何有效创建和使用宏。
+
+根据Microsoft的定义，宏被定义为你可以重复执行的一个动作或一系列动作。本质上，创建宏涉及记录你的鼠标点击和键盘输入，使你能够自动化重复性任务。
+
+在这里，我提供了一个提示模板来帮助你制作宏：
+
+编写一个执行特定动作的VBA Excel宏。仅回复代码。
+我尝试创建了一个基础宏，它从一个单元格中获取值，然后根据这个值打开对应的工作表。
+
+***
+
+### 问题
+1. "自动化"在中文中更常见的表达是"自动化操作"或"自动化流程"。
+2. "宏"是一个专业术语，需要保留，但在中文中可能需要额外解释以便读者理解。
+3. "执行"在中文中更常见的表达是"完成"或"实施"。
+4. "记录你的鼠标点击和键盘输入"这个表达在中文中可能会显得有些生硬，可以使用"捕捉你的鼠标和键盘操作"来替代。
+5. "提示模板"中的"模板"在中文中可能会造成误解，更常见的表达是"示例"或"格式"。
+6. "执行特定动作"中的"特定动作"可以具体化，以便更清晰地表达宏的功能。
+
+***
+
+### 意译
+```
+对于热衷于Excel自动化功能的用户来说，宏是一个非常强大的工具值得深入了解。ChatGPT在此为你提供支持，帮助你学习如何高效地创建和运用宏。
+
+根据Microsoft的官方定义，宏是你能够进行多次重复执行的动作或一系列动作。创建宏基本上就是记录下你的鼠标操作和键盘输入，以此来实现任务的自动化。
+
+下面，我为你准备了一个提问示例，以便你在编写宏时得到帮助：
+
+请编写一个VBA Excel宏来[完成具体操作]。请直接提供代码。
+我曾尝试编写一个基础宏，它的功能是从单元格中提取数值，并根据这个数值打开相应的工作表。
+```
+
+### USER
+5. Performing Complex Tasks in Excel
+Excel does more than just basic tasks; it can work through tough jobs including analyzing data and creating charts.
+
+ChatGPT is here to help you with these difficult tasks. Clearly describe what you want to do, including every detail.
+
+Act as a proficient Excel assistant. [Explain the task]
+I got guidance on how to do it, along with explanations for each step.
+
+
+
+### ASSISTANT
+### 直译
+Excel不仅仅是用来完成基本任务的；它还可以处理包括数据分析和图表创建在内的复杂工作。
+
+ChatGPT在这里帮助你完成这些困难任务。清晰地描述你想要做什么，包括每一个细节。
+
+充当一个熟练的Excel助手。[解释任务]
+我得到了如何操作的指导，以及每一步的解释。
+
+***
+
+### 问题
+1. "复杂工作"中的"工作"在中文中可能会造成误解，更常见的表达是"任务"或"操作"。
+2. "困难任务"中的"困难"在中文中可能会显得过于主观，可以使用"具有挑战性的任务"来替代。
+3. "清晰地描述"在中文中的表达不够自然，可以改为"详细说明"。
+4. "每一步的解释"这个表达在中文中可能会显得有些生硬，可以使用"每个步骤的详细解释"来替代。
+5. 中文中通常不会将"Explain the task"这样的指令直接放在段落中，而是会将其融入到句子中。
+
+***
+
+### 意译
+```
+Excel不只局限于处理基础任务，它还能够胜任包括数据分析和图表制作在内的一系列复杂任务。
+
+当你面临这些具有挑战性的任务时，ChatGPT将为你提供帮助。请详细说明你想要的操作，不要遗漏任何细节。
+
+作为一个精通Excel的助手，我会为你提供详尽的指导。[阐述任务的具体内容]
+我已经得到了如何执行每一步的指导，并且对每个步骤都有清晰的理解。
+```
+
+### USER
+6. Make ChatGPT Your Go-To Excel Assistant
+Having a separate prompt for each task in Excel can be too much to handle. Instead, you can use a single prompt to make ChatGPT a handy helper for any Excel job you have.
+
+Here is a universal prompt that makes ChatGPT act like an expert on Excel:
+
+Act as an Excel expert. Provide step-by-step instructions on how to complete a specific task in Excel. This could include tasks such as creating a pivot table, formatting data, using formulas or functions, creating charts or graphs, or any other Excel-related task. Clearly explain each step, specify any required settings, or options, explain what functions to use, and provide any additional tips or recommendations to ensure accurate and efficient completion of the task.
+Help me with the following task: [describe your task]
+
+### ASSISTANT
+### 直译
+拥有一个针对Excel中每项任务的单独提示可能会难以处理。相反，你可以使用一个通用提示，让ChatGPT成为你任何Excel工作的实用助手。
+
+这里是一个让ChatGPT像Excel专家那样行动的通用提示：
+
+充当Excel专家。提供如何完成Excel中特定任务的分步指导。这可能包括创建数据透视表、格式化数据、使用公式或函数、创建图表或图形，或任何其他与Excel相关的任务。清晰地解释每一步，指定任何必需的设置或选项，解释应使用哪些函数，并提供任何额外的技巧或建议，以确保准确高效地完成任务。
+请帮我完成以下任务：[描述你的任务]
+
+***
+
+### 问题
+1. "通用提示"中的"通用"在中文中可能会造成误解，更常见的表达是"通用的"或"适用于多种情况的"。
+2. "分步指导"中的"分步"在中文中可能会显得有些生硬，可以使用"逐步指导"来替代。
+3. "必需的设置或选项"这个表达在中文中可能会显得些生硬，可以使用"必要的配置或选择"来替代。
+4. "额外的技巧或建议"中的"额外的"在中文中可能会显得有些多余，可以直接说"提供技巧和建议"。
+5. "确保准确高效地完成任务"这个表达在中文中可能会显得有些冗长，可以简化为"确保任务的准确和高效完成"。
+
+***
+
+### 意译
+```
+在Excel中为每项任务设置单独的提示可能会让人感到繁琐。其实，你可以通过一个统一的提示，让ChatGPT成为你处理任何Excel任务的得力助手。
+
+下面是一个能让ChatGPT像Excel专家那样提供帮助的通用提示：
+
+作为一个Excel专家，为完成Excel中的特定任务提供详细的逐步指导。这可能包括创建数据透视表、数据格式化、运用公式或函数、绘制图表或图形，以及其他各种Excel相关任务。请对每一步进行详尽的解释，明确指出必要的配置或选择，阐释应使用的函数，并给出技巧和建议，以保证任务能够准确且高效地完成。
+请协助我完成以下任务：[具体描述你的任务]
+```
+
+### USER
+7. Turn ChatGPT Into An Excel Sheet
+You can actually have GPT function as a textual representation of an Excel sheet, where it executes transformations or computations as instructed by you.
+
+I want you to act as a text-based excel. you’ll only reply to me with the text-based 10 rows excel sheet with row numbers and cell letters as columns (A to L). The first column header should be empty to reference the row number. I will tell you what to write into cells, and you’ll reply only with the result of the excel table as text and nothing else. Do not write explanations. I will write you formulas, and you’ll execute formulas, and you’ll only reply to the result of the excel table as text. First, reply to me with the empty sheet.
+
+### ASSISTANT
+检索 Excel DECIMAL 函数 - 按给定基数将数字的文本表示形式 ...(https://www.w3schools.cn/excel_functions/excel_math_decimal.asp) ...
+检索 如何将Excel表格中的数据转换为文本格式-百度经验(https://jingyan.baidu.com/article/1612d5004f07f7a30e1eeefa.html) ...
+检索 excel变为文本,将Excel表格内容转换为纯文本的简单方法 ...(https://www.wpsds.com/excelzs/177661.html) ...
+
+### 直译
+你可以让GPT实际上充当一个文本形式的Excel表格，根据你的指示执行转换或计算。
+
+我希望你充当一个基于文本的Excel。你只需用文本形式回复给我一个带有行号和列字母（A到L）的10行Excel表格。第一列标题应该为空，用来参考行号。我会告诉你要写入单元格的内容，你只需回复给我Excel表格的结果作为文本，别的什么都不要回复。不要写解释。我会写公式给你，你会执行公式，你只需回复给我Excel表格的结果作为文本。首先，回复给我一个空的表格。
+
+### 问题
+1. "文本形式的Excel表格"这个表达在中文中可能会造成误解，因为"文本"一般不与"Excel表格"直接关联。
+2. "行号和列字母"的表达方式在中文中不够直观，通常会说"行号和列标"。
+3. "空"的使用在这里可能会让人困惑，中文中更倾向于使用"空白"。
+4. "回复给我Excel表格的结果作为文本"这个表达有些冗余，可以简化为"回复Excel表格的结果"。
+5. "不要写解释"可能会让人误解为完全不需要任何解释，而是指在这个情境下不需要额外的文字说明。
+6. "我会写公式给你"这个表达在中文中不够自然，可以改为"我会提供公式"。
+7. "你只需回复Excel表格的结果"中的"你只需"可能会显得有些命令式，可以改为"请仅回复"。
+
+### 意译
+```
+实际上，你可以将GPT作为一个Excel表格的文本版来使用，它会根据你的指令进行数据转换或计算。
+
+请作为一个基于文本的Excel表格与我互动。你只需以文本形式回复一个包含行号和列标（从A至L）的10行空白Excel表格。第一列应留空，用于标注行号。我会指示你哪些内容需要填入单元格，而你的回复应当仅为Excel表格的文本结果，无需其他内容。请避免提供解释性文字。如果需要进行计算，我会给出相应的公式，你执行后，请仅以文本形式回复计算后的Excel表格结果。首先，请给我一个空白的表格模板。
+```
+
+### USER
+In Conclusion
+ChatGPT stands as a reliable assistant for various Excel assignments. Contrary to what one might assume, leveraging ChatGPT for Excel does not require a multitude of prompts; a few well-crafted ones will be enough.
+
+With the seven excel prompt generator prompts shared with you today, you are well-equipped to address a variety of Excel challenges that may come your way.
+
+### ASSISTANT
+### 直译
+ChatGPT作为一个可靠的助手，可以处理各种Excel任务。与人们可能认为的相反，利用ChatGPT进行Excel操作并不需要大量的提示；几个精心设计的提示就足够了。
+
+通过今天与你分享的七个Excel提示生成器提示，你已经充分准备好应对可能出现的多种Excel挑战。
+
+***
+
+### 问题
+1. "可靠的助手"在中文中可能会显得有些夸张，可以使用"有效的帮助"或"实用的工具"等表达。
+2. "处理"在中文中更常见的表达是"完成"或"协助"。
+3. "各种Excel任务"中的"各种"可能会造成误解，更常见的表达是"多种"或"不同类型"的Excel任务。
+4. "与人们可能认为的相反"这个表达在中文中不够自然，可以改为"并不像大家想象的那样"。
+5. "利用ChatGPT进行Excel操作"中的"操作"在中文中更常见的表达是"使用"。
+6. "大量的提示"在中文中的表达不够自然，可以改为"多个提示"。
+7. "精心设计的提示"中的"精心设计的"可能会显得有些冗余，可以简化为"精心准备的"或"有效的"。
+8. "你已经充分准备好"这个表达在中文中可能会显得有些生硬，可以改为"你已经具备了应对"。
+
+***
+
+### 意译
+```
+总的来说，ChatGPT是一个非常实用的工具，能够有效协助你完成多种类型的Excel任务。并不像大家想象的那样，使用ChatGPT处理Excel并不需要很多的提示；几个有效准备的提示就足以应对。
+
+通过今天向你介绍的七个Excel提示生成器，你现在已经具备了应对可能出现的不同Excel挑战的能力。
+```
+
